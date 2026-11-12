@@ -1,0 +1,26 @@
+{
+  "name": "koda-b10-node4",
+  "version": "1.0.0",
+  "description": "Create program that implement JSDoc to filter data from [jsonplaceholder](https://jsonplaceholder.typicode.com/users)",
+  "homepage": "https://github.com/rizqyazhar/koda-b10-node4#readme",
+  "bugs": {
+    "url": "https://github.com/rizqyazhar/koda-b10-node4/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizqyazhar/koda-b10-node4.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0"
+  }
+}
