@@ -7,6 +7,13 @@
  * @property {string} username
  * @property {string} email
  * @property {object} address
+ * @property {string} address.street
+ * @property {string} address.suite
+ * @property {string} address.city
+ * @property {string} address.zipcode
+ * @property {object} address.geo
+ * @property {string} address.geo.lat
+ * @property {string} address.geo.lng
  * @property {string} phone
  * @property {string} website
  * @property {object} company
@@ -15,8 +22,7 @@
 
 /**
  *
- * @param {Object[]} data
- * @param {string} data[].name
+ * @param {User[]} data
  * @param {string} name
  * @returns {array}
  */
